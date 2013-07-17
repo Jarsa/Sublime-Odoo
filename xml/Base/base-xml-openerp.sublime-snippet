@@ -1,0 +1,12 @@
+<!-- OpenERP XML Snippets -->
+
+<snippet>
+    <content><![CDATA[<openerp>
+    <data>
+        $0
+    </data>
+</openerp>]]></content>
+    <tabTrigger>openerp</tabTrigger>
+    <scope>text.xml</scope>
+    <description>OpenERP Base XML File</description>
+</snippet>

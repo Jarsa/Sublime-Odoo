@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+'$1_id':fields.many2one('${2:model.name}', '${3:Label}', ),$0
+]]></content>
+    <tabTrigger>fields.many2one</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP fields.many2one</description>
+</snippet>

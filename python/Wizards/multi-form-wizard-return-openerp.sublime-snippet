@@ -1,0 +1,33 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[def view_return(self, cr, uid, view_name, res_id, context=None):
+        """
+            Create a new record for a model ${1:ModelName}
+            @param cr: cursor to database
+            @param uid: id of current user
+            @param values: provides a data for new record
+            @param context: context arguments, like lang, time zone
+
+            @return: returns a id of new record
+        """
+        data_pool = self.pool.get('ir.model.data')
+        reference = data_pool.get_object_reference(cr, uid, '${1:model_name}', view_name)
+        view_id = reference and reference[1] or False
+        result = {
+            'view_type': 'form',
+            'view_mode': 'form',
+            'res_model': '${2:wizard_model_name}',
+            'views': [(view_id, 'form')],
+            'view_id': False,
+            'type': 'ir.actions.act_window',
+            'target': 'new',
+            'res_id': res_id,
+            'context': context,
+        }
+        return result
+]]></content>
+    <tabTrigger>wizard</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Wizard Multi-View Return</description>
+</snippet>

@@ -1,0 +1,23 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[def unlink(self, cr, uid, ids, context=None):
+    """
+        Delete all record(s) from table heaving record id in ids
+        return True on success, False otherwise
+
+        @param cr: cursor to database
+        @param uid: id of current user
+        @param ids: list of record ids to be removed from table
+        @param context: context arguments, like lang, time zone
+
+        @return: True on success, False otherwise
+
+        #TODO: process before delete resource
+    """
+
+    return super(${1:ModelName}, self).unlink(cr, uid, ids, context=context)]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method unlink OpenERP</description>
+</snippet>

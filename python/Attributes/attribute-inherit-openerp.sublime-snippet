@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+_inherit = '${1:openerp.model}'
+]]></content>
+    <tabTrigger>_inherit</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP _inherit attribute</description>
+</snippet>

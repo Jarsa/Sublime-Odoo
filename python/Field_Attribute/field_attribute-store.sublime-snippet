@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+store=True, $0
+]]></content>
+    <tabTrigger>store</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Field Attribute store</description>
+</snippet>

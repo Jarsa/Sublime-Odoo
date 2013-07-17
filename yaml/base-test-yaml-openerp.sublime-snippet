@@ -1,0 +1,10 @@
+<!-- OpenERP YAML Snippets -->
+
+<snippet>
+    <content><![CDATA[-
+    ${0:Brief description of the test}
+-]]></content>
+    <tabTrigger>-</tabTrigger>
+    <scope>source.yaml</scope>
+    <description>OpenERP Base YAML Test File</description>
+</snippet>

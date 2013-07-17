@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+readonly=True, $0
+]]></content>
+    <tabTrigger>readonly</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Field Attribute readonly</description>
+</snippet>

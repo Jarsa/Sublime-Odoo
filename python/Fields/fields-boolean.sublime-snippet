@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+'$1':fields.boolean('${2:Label}', ),$0
+]]></content>
+    <tabTrigger>fields.boolean</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP fields.boolean</description>
+</snippet>

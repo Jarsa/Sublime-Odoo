@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+help='${1:HelpAboutField}', $0
+]]></content>
+    <tabTrigger>help</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Field Attribute help</description>
+</snippet>

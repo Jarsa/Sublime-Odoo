@@ -1,0 +1,10 @@
+<!-- OpenERP XML Snippets -->
+
+<snippet>
+    <content><![CDATA[
+<menuitem id="${1:object_name}_menu" name="${2:menu_name}" parent="${3:parent_menu_name}" action="action_${1:action_name}"/>
+]]></content>
+    <tabTrigger>menuitem</tabTrigger>
+    <scope>text.xml</scope>
+    <description>OpenERP Object menuitem</description>
+</snippet>

@@ -1,0 +1,12 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[from osv import fields, osv
+
+from tools.translate import _
+
+$0]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.python</scope>
+    <description>Import Base OpenERP</description>
+</snippet>

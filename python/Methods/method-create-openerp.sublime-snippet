@@ -1,0 +1,19 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[def create(self, cr, uid, values, context=None):
+    """
+        Create a new record for a model ${1:ModelName}
+        @param cr: cursor to database
+        @param uid: id of current user
+        @param values: provides a data for new record
+        @param context: context arguments, like lang, time zone
+
+        @return: returns a id of new record
+    """
+
+    return super(${1:Model_Name}, self).create(cr, uid, values, context=context)]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method create OpenERP</description>
+</snippet>

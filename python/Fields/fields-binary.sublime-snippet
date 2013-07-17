@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+'${1:file}':fields.binary('${2:Label}', ), $0
+]]></content>
+    <tabTrigger>fields.binary</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP fields.binary</description>
+</snippet>

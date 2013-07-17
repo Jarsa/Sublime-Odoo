@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+_order = "${1:field_name} asc"
+]]></content>
+    <tabTrigger>_order</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP _order attribute</description>
+</snippet>

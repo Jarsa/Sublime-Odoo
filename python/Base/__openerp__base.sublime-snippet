@@ -1,0 +1,25 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+{
+    'name' : '',
+    'version' : '0.1',
+    'category' : '',
+    'description' : """
+    """,
+    'author' : '',
+    'website' : 'http://',
+    'license' : 'AGPL-3'
+    'depends' : [],
+    'init_xml' : [],
+    'demo_xml' : [],
+    'update_xml' : [],
+    'active': False,
+    'installable': True,
+}
+]]></content>
+    <tabTrigger>__openerp__</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP __openerp__ Base</description>
+</snippet>

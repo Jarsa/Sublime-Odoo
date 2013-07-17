@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+'$1':fields.text('${2:Label}', ),$0
+]]></content>
+    <tabTrigger>fields.text</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP fields.text</description>
+</snippet>

@@ -1,0 +1,11 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+## ---> Set BreakPoint
+import pdb; pdb.set_trace()
+]]></content>
+    <tabTrigger>pdb</tabTrigger>
+    <scope>source.python</scope>
+    <description>Debug OpenERP</description>
+</snippet>

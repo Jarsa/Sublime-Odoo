@@ -1,0 +1,12 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+_sql_constraints = [
+    ('${1:name}_uniq', 'unique (${1:name})', 'The ${1:name} must be unique !'),
+]
+]]></content>
+    <tabTrigger>_sql_constraints</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP _sql_constraints attribute</description>
+</snippet>

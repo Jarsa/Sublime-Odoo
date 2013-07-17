@@ -1,0 +1,17 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[class ${1:ClassName}(osv.osv):
+    _name = '${2:openerp.model}'
+    _description = '${3:Description}'
+    _columns = {
+        '${4:name}':fields.char('$5', size=${6:64}, required=${7:False}, readonly=${8:False}),$0
+    }
+    _defaults = {
+        '${4:name}': lambda *a: None,
+    }
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Class Base</description>
+</snippet>

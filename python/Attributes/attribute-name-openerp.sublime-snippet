@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+_name = '${1:openerp}.${2:model}'$0
+]]></content>
+    <tabTrigger>_name</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP _name attribute</description>
+</snippet>

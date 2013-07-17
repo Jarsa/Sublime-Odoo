@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+digits_compute=dp.get_precision('${1:Precision Name}'), $0
+]]></content>
+    <tabTrigger>digits_compute</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Field Attribute digits_compute</description>
+</snippet>
