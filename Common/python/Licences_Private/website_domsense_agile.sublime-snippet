@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+http://www.agilebg.com
+]]></content>
+    <tabTrigger>website</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Domsense/Agile Website</description>
+</snippet>

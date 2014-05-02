@@ -2,9 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'$1':fields.float('${2:Label}', ),$0
+'${1:float_field_name}':fields.float(
+    '${2:Field Label}',
+),$0
 ]]></content>
     <tabTrigger>fields.float</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP fields.float</description>
+    <description>float field (OERP)</description>
 </snippet>

@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-store=True, $0
+translate=True,$0
 ]]></content>
-    <tabTrigger>store</tabTrigger>
+    <tabTrigger>translate</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Field Attribute store</description>
+    <description>translate attribute (OERP)</description>
 </snippet>

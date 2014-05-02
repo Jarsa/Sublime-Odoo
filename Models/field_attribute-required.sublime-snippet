@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+required=True,$0
+]]></content>
+    <tabTrigger>required</tabTrigger>
+    <scope>source.python</scope>
+    <description>required attributre (OERP)</description>
+</snippet>

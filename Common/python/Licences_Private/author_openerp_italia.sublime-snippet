@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-translate=True, $0
+OpenERP Italian Community
 ]]></content>
-    <tabTrigger>translate</tabTrigger>
+    <tabTrigger>author</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Field Attribute translate</description>
+    <description>OpenERP Italia Author</description>
 </snippet>

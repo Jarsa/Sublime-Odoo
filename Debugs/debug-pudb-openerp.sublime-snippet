@@ -3,9 +3,10 @@
 <snippet>
     <content><![CDATA[
 ## ---> Set BreakPoint
-import pdb; pdb.set_trace()
+from pudb import set_trace;
+set_trace()
 ]]></content>
-    <tabTrigger>pdb</tabTrigger>
+    <tabTrigger>pudb</tabTrigger>
     <scope>source.python</scope>
-    <description>Debug OpenERP</description>
+    <description>PUDB Debug OpenERP</description>
 </snippet>

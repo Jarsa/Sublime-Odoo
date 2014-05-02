@@ -2,9 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'$1':fields.char('${2:Label}', ),$0
+'${1:char_field_name}': fields.char(
+    '${2:Filed Label}',
+),$0
 ]]></content>
     <tabTrigger>fields.char</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP fields.char</description>
+    <description>char field (OERP)</description>
 </snippet>

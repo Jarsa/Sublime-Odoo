@@ -1,0 +1,14 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+'${1:o2m_field_name}_ids': fields.one2many(
+    '${2:source.model.name}',
+    '${3:o2m_field_id'},
+    '${4:Field Label}',
+),$0
+]]></content>
+    <tabTrigger>fields.one2many</tabTrigger>
+    <scope>source.python</scope>
+    <description>o2m field (OERP)</description>
+</snippet>

@@ -2,9 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'$1':fields.time('${2:Label}', ),$0
+'${1:time_field_name}': fields.time(
+    '${2:Field Label}',
+),$0
 ]]></content>
     <tabTrigger>fields.time</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP fields.time</description>
+    <description>time field (OERP)</description>
 </snippet>

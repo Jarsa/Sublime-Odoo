@@ -2,9 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'$1': fields.integer('${2:Label}', )$0
+'${1:integer_field_name}': fields.integer(
+    '${2:Field Label}',
+)$0
 ]]></content>
     <tabTrigger>fields.integer</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP fields.integer</description>
+    <description>integer field (OERP)</description>
 </snippet>

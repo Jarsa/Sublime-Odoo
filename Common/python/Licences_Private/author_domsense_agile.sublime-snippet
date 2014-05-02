@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+Agile Business Group & Domsense
+]]></content>
+    <tabTrigger>author</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Domsense/Agile Author</description>
+</snippet>

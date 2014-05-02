@@ -2,9 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'$1':fields.boolean('${2:Label}', ),$0
+'${1:bool_field_name}': fields.boolean(
+    '${2:Field Label}',
+),$0
 ]]></content>
     <tabTrigger>fields.boolean</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP fields.boolean</description>
+    <description>boolean field (OERP)</description>
 </snippet>

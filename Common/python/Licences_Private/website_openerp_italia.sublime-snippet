@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-required=True, $0
+http://www.openerp-italia.org/
 ]]></content>
-    <tabTrigger>required</tabTrigger>
+    <tabTrigger>website</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Field Attribute required</description>
+    <description>OpenERP Italia Website</description>
 </snippet>
