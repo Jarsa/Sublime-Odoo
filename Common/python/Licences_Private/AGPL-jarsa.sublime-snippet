@@ -5,8 +5,7 @@
 # -*- encoding: utf-8 -*-
 ##################################################################################
 #
-#    Copyright (C) ${1:Year} Agile Business Group sagl (<http://www.agilebg.com>)
-#    Copyright (C) $1 Domsense srl (<http://www.domsense.com>)
+#    Copyright (C) ${1:Year} Jarsa Sistemas, S.A. de C.V. (<http://www.jarsa.com.mx>)
 #    All Rights Reserved
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -26,5 +25,5 @@
 ]]></content>
     <tabTrigger>gpl</tabTrigger>
     <scope>source.python</scope>
-    <description>AGPL OpenERP - Domsense e AgileBG</description>
+    <description>AGPL Jarsa</description>
 </snippet>

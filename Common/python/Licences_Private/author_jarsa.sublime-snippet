@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-http://www.openerp-italia.org/
+Jarsa Sistemas, S.A. de C.V.
 ]]></content>
-    <tabTrigger>website</tabTrigger>
+    <tabTrigger>author</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Italia Website</description>
+    <description>Jarsa Author</description>
 </snippet>
