@@ -10,6 +10,7 @@
     _defaults = {
         '${4:name}': lambda *a: None,
     }
+    ${1:ClassName}()
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.python</scope>

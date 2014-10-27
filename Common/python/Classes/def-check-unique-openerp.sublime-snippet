@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+def _check_unique_insesitive(self, cr, uid, ids, context=None):
+        sr_ids = self.search(cr, 1 , [], context=context)
+        lst = [x.${1:field}.lower() for x in self.browse(cr, uid, sr_ids, context=context) if x.${1:field} and x.id not in ids]
+        for self_obj in self.browse(cr, uid, ids, context=context):
+            if self_obj.${1:field} and self_obj.${1:field}.lower() in  lst:
+                return False
+            return True
+]]></content>
+	<tabTrigger>unique</tabTrigger>
+	<scope>source.python</scope>
+	<description>OpenERP Check Unique def</description>
+</snippet>

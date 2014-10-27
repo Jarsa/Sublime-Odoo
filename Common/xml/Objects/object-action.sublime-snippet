@@ -7,7 +7,7 @@
 	<field name='view_mode'>tree,form</field>
 </record>
 ]]></content>
-	<tabTrigger>tree</tabTrigger>
+	<tabTrigger>action</tabTrigger>
 	<scope>text.xml</scope>
-	<description>OpenERP Tree</description>
+	<description>OpenERP Action</description>
 </snippet>

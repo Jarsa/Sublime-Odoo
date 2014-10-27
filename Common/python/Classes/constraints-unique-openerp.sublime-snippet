@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+_sql_constraints = [('${1:class_name}_name_unique', 'unique(name)', '${2:Error Message}')]
+    
+_constraints = [(_check_unique_insesitive, '${2:Error Message}', ['${3:Field}'])]
+]]></content>
+	<tabTrigger>unique</tabTrigger>
+	<scope>source.python</scope>
+	<description>OpenERP Check Unique Constraints</description>
+</snippet>

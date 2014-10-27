@@ -2,21 +2,20 @@
 
 <snippet>
     <content><![CDATA[
-{
-    'name' : '',
-    'version' : '0.1',
-    'category' : '',
-    'description' : """
-    """,
-    'author' : '',
-    'website' : 'http://',
-    'license' : 'AGPL-3'
-    'depends' : [],
-    'init_xml' : [],
-    'demo_xml' : [],
-    'update_xml' : [],
-    'active': False,
-    'installable': True,
+{   
+    "name"        : "${1:Module Name}",
+    "version"     : "${2:Version}",
+    "category"    : "${3:Category}",
+    "author"      : "Jarsa Sistemas, S.A. de C.V.",
+    "website"     : "www.jarsa.com.mx",
+    "depends"     : [],
+    "summary"     : "${4:Info displayed in module kanban}}",
+    "description" : """
+                    ${5:Module Description}
+                    """,
+    "data" : [],
+    "application": True,
+    "installable": True,
 }
 ]]></content>
     <tabTrigger>__openerp__</tabTrigger>

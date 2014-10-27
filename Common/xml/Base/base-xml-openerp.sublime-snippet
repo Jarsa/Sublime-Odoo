@@ -1,7 +1,8 @@
 <!-- OpenERP XML Snippets -->
 
 <snippet>
-    <content><![CDATA[<openerp>
+    <content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
     <data>
         $0
     </data>
