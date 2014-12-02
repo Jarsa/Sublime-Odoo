@@ -1,7 +1,9 @@
 <!-- OpenERP Python Snippets -->
 
 <snippet>
-    <content><![CDATA[from openerp.osv import fields, osv
+    <content><![CDATA[
+# -*- encoding: utf-8 -*-
+from openerp.osv import fields, osv
 
 $0]]></content>
     <tabTrigger>import</tabTrigger>

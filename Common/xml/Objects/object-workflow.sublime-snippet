@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<!-- SEARCH View  --> 
+<record id="wkf_${1:object_name}" model="workflow">
+  <field name="name">${2:modulename}.basic</field>
+  <field name="osv">${3:object.name}</field>
+  <field name="on_create">True</field>
+</record>
+]]></content>
+	<tabTrigger>workflow</tabTrigger>
+	<scope>text.xml</scope>
+	<description>OpenERP Workflow</description>
+</snippet>
