@@ -10,15 +10,12 @@
     "website"     : "www.jarsa.com.mx",
     "depends"     : [],
     "summary"     : "${4:Info displayed in module kanban}}",
-    "description" : """
-                    ${5:Module Description}
-                    """,
     "data" : [],
     "application": True,
     "installable": True,
 }
 ]]></content>
-    <tabTrigger>__Odoo__</tabTrigger>
+    <tabTrigger>__openerp__</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo __Odoo__ Base</description>
+    <description>Odoo __openerp__ Base</description>
 </snippet>

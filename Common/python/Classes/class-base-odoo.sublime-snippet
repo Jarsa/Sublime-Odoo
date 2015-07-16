@@ -1,16 +1,11 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[class ${1:ClassName}(osv.osv):
+    <content><![CDATA[class ${1:ClassName}(models.Model):
     _name = '${2:Odoo.model}'
     _description = '${3:Description}'
-    _columns = {
-        '${4:name}':fields.char('$5', size=${6:64}, required=${7:False}, readonly=${8:False}),$0
-    }
-    _defaults = {
-        '${4:name}': lambda *a: None,
-    }
-    ${1:ClassName}()
+    
+    '${4:name}' = fields.Char(string='$5', size=${6:64}, required=${7:False}, readonly=${8:False}, defaults={9:False}),$0
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.python</scope>

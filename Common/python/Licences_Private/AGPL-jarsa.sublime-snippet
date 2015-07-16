@@ -23,7 +23,7 @@
 #
 ##################################################################################
 ]]></content>
-    <tabTrigger>gpl</tabTrigger>
+    <tabTrigger>agpl</tabTrigger>
     <scope>source.python</scope>
     <description>AGPL Jarsa</description>
 </snippet>

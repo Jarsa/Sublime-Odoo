@@ -4,7 +4,6 @@
 <record id="${1:view_module}_search" model="ir.ui.view">
     <field name="name">${2:model}.search</field>
     <field name="model">${2:model}</field>
-    <field name="type">search</field>
     <field name="arch" type="xml">
         <search string="${3:String}">
            <filter string="${4:name}" icon="terp-gtk-media-pause" domain="[('${5:field}','${6:=}','${7:value}')]"/>
@@ -16,7 +15,7 @@
     </field>
 </record>
 ]]></content>
-	<tabTrigger>searcg</tabTrigger>
+	<tabTrigger>search</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Odoo Search</description>
 </snippet>

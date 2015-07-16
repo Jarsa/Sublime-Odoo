@@ -4,7 +4,7 @@
     <content><![CDATA[
 Jarsa Sistemas, S.A. de C.V.
 ]]></content>
-    <tabTrigger>author</tabTrigger>
+    <tabTrigger>jarsa</tabTrigger>
     <scope>source.python</scope>
     <description>Jarsa Author</description>
 </snippet>

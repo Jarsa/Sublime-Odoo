@@ -4,7 +4,7 @@
     <content><![CDATA[
 http://www.jarsa.com.mx/
 ]]></content>
-    <tabTrigger>website</tabTrigger>
+    <tabTrigger>website_jarsa</tabTrigger>
     <scope>source.python</scope>
     <description>Jarsa Website</description>
 </snippet>

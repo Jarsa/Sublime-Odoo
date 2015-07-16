@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-import $0
+from . import $0
 ]]></content>
-    <tabTrigger>__init__</tabTrigger>
+    <tabTrigger>import</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo __init__ Base</description>
 </snippet>

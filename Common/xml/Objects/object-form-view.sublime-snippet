@@ -3,7 +3,6 @@
 <record model='ir.ui.view' id='${1:name_id}_form'>
 	<field name='name'>${1:name_id}.form</field>
 	<field name='model'>${2:model.name}</field>
-	<field name='type'>form</field>
 	<field name='arch' type='xml'>
 		<form string='${3:description}'>
 			<header>

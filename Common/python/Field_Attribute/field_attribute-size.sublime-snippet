@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-size=64, $0
+size=${1:64}, $0
 ]]></content>
     <tabTrigger>size</tabTrigger>
     <scope>source.python</scope>
