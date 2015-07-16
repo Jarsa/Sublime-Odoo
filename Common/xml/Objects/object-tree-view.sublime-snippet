@@ -13,5 +13,5 @@
 ]]></content>
 	<tabTrigger>tree</tabTrigger>
 	<scope>text.xml</scope>
-	<description>OpenERP Tree</description>
+	<description>Odoo Tree</description>
 </snippet>

@@ -22,5 +22,5 @@
 ]]></content>
 	<tabTrigger>form</tabTrigger>
 	<scope>text.xml</scope>
-	<description>OpenERP form</description>
+	<description>Odoo form</description>
 </snippet>

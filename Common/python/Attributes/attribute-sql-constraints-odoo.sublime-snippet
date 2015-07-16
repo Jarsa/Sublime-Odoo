@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -8,5 +8,5 @@ _sql_constraints = [
 ]]></content>
     <tabTrigger>_sql_constraints</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP _sql_constraints attribute</description>
+    <description>Odoo _sql_constraints attribute</description>
 </snippet>

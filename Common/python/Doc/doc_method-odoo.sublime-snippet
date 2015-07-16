@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA["""
@@ -13,5 +13,5 @@
 $0]]></content>
     <tabTrigger>doc_method</tabTrigger>
     <scope>source.python</scope>
-    <description>Generic doc method OpenERP</description>
+    <description>Generic doc method Odoo</description>
 </snippet>

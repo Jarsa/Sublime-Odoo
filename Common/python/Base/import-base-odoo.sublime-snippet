@@ -1,12 +1,12 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
 # -*- encoding: utf-8 -*-
-from openerp.osv import fields, osv
+from Odoo.osv import fields, osv
 
 $0]]></content>
     <tabTrigger>import</tabTrigger>
     <scope>source.python</scope>
-    <description>Import Base OpenERP</description>
+    <description>Import Base Odoo</description>
 </snippet>

@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def ${1:_check_metho}(self, cr, uid, ids):
@@ -18,5 +18,5 @@ _constraints = [
 ]]]></content>
     <tabTrigger>_constraints</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP _constraints attribute</description>
+    <description>Odoo _constraints attribute</description>
 </snippet>

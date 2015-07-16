@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[import time
@@ -8,5 +8,5 @@ from dateutil.relativedelta import relativedelta
 $0]]></content>
     <tabTrigger>import</tabTrigger>
     <scope>source.python</scope>
-    <description>Import DateTime OpenERP</description>
+    <description>Import DateTime Odoo</description>
 </snippet>

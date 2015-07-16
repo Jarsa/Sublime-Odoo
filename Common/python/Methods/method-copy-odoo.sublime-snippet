@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def copy(self, cr, uid, id, default=None, context=None):
@@ -16,5 +16,5 @@
     return super(${1:ModelName}, self).copy(cr, uid, id, default, context)]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Method copy OpenERP</description>
+    <description>Method copy Odoo</description>
 </snippet>

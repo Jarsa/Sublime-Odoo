@@ -4,5 +4,5 @@ field name='${1:field_name}'/>$0
 ]]></content>
 	<tabTrigger>field</tabTrigger>
 	<scope>text.xml</scope>
-	<description>OpenERP Field</description>
+	<description>Odoo Field</description>
 </snippet>

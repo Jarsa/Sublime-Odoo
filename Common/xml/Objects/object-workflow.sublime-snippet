@@ -9,5 +9,5 @@
 ]]></content>
 	<tabTrigger>workflow</tabTrigger>
 	<scope>text.xml</scope>
-	<description>OpenERP Workflow</description>
+	<description>Odoo Workflow</description>
 </snippet>

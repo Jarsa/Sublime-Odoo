@@ -1,4 +1,4 @@
-<!-- OpenERP XML Snippets -->
+<!-- Odoo XML Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>menuitem</tabTrigger>
     <scope>text.xml</scope>
-    <description>OpenERP Object menuitem</description>
+    <description>Odoo Object menuitem</description>
 </snippet>

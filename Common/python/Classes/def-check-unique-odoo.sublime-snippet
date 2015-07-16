@@ -10,5 +10,5 @@ def _check_unique_insesitive(self, cr, uid, ids, context=None):
 ]]></content>
 	<tabTrigger>unique</tabTrigger>
 	<scope>source.python</scope>
-	<description>OpenERP Check Unique def</description>
+	<description>Odoo Check Unique def</description>
 </snippet>

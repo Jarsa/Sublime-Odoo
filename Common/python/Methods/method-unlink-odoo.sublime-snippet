@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def unlink(self, cr, uid, ids, context=None):
@@ -19,5 +19,5 @@
     return super(${1:ModelName}, self).unlink(cr, uid, ids, context=context)]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Method unlink OpenERP</description>
+    <description>Method unlink Odoo</description>
 </snippet>

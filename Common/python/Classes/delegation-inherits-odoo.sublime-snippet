@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -7,5 +7,5 @@ _inherits = '{'${2:model.name}': '${3:model_id}'}
 ]]></content>
     <tabTrigger>_inherits</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Class _inherits</description>
+    <description>Odoo Class _inherits</description>
 </snippet>

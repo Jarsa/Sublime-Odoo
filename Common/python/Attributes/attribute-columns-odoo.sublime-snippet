@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- w Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -8,5 +8,5 @@ _columns = {
 ]]></content>
     <tabTrigger>_columns</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP _columns attribute</description>
+    <description>Odoo _columns attribute</description>
 </snippet>

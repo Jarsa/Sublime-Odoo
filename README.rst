@@ -1,6 +1,6 @@
-sublime-OpenERP
+Sublime-Odoo
 ===============
 
-Sublime Text for OpenERP:
+Sublime Text for Odoo 8:
 
-- support function for OpenERP field types, models and usability guidelines
+- support function for Odoo field types, models and usability guidelines

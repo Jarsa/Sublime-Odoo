@@ -6,5 +6,5 @@ _constraints = [(_check_unique_insesitive, '${2:Error Message}', ['${3:Field}'])
 ]]></content>
 	<tabTrigger>unique</tabTrigger>
 	<scope>source.python</scope>
-	<description>OpenERP Check Unique Constraints</description>
+	<description>Odoo Check Unique Constraints</description>
 </snippet>

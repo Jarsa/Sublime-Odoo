@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -8,5 +8,5 @@ _defaults = {
 ]]></content>
     <tabTrigger>_defaults</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP _defaults attribute</description>
+    <description>Odoo _defaults attribute</description>
 </snippet>

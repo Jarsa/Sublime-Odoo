@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def write(self, cr, uid, ids, values, context=None):
@@ -18,5 +18,5 @@
     return super(${1:Model_Name}, self).write(cr, uid, ids, values, context=context)]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Method write OpenERP</description>
+    <description>Method write Odoo</description>
 </snippet>

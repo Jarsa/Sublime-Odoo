@@ -1,0 +1,13 @@
+<!-- Odoo XML Snippets -->
+
+<snippet>
+    <content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<Odoo>
+    <data>
+        $0
+    </data>
+</Odoo>]]></content>
+    <tabTrigger>Odoo</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Base XML File</description>
+</snippet>

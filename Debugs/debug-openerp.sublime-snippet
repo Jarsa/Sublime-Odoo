@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -8,5 +8,5 @@ pdb.set_trace()
 ]]></content>
     <tabTrigger>pdb</tabTrigger>
     <scope>source.python</scope>
-    <description>PDB Debug OpenERP</description>
+    <description>PDB Debug Odoo</description>
 </snippet>

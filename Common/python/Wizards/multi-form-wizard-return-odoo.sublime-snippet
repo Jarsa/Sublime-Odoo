@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def view_return(self, cr, uid, view_name, res_id, context=None):
@@ -29,5 +29,5 @@
 ]]></content>
     <tabTrigger>wizard</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Wizard Multi-View Return</description>
+    <description>Odoo Wizard Multi-View Return</description>
 </snippet>

@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[def ${1:onchange_name}(self, cr, uid, ids, ${2:field_name}, context=None):
@@ -8,5 +8,5 @@ if ${2:field_name}:
 return {'value': {'${3:field_change}': ${3:field_change}}}$0]]></content>
     <tabTrigger>onchange</tabTrigger>
     <scope>source.python</scope>
-    <description>Method on_change OpenERP</description>
+    <description>Method on_change Odoo</description>
 </snippet>

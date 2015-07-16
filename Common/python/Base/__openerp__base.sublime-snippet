@@ -1,4 +1,4 @@
-<!-- OpenERP Python Snippets -->
+<!-- Odoo Python Snippets -->
 
 <snippet>
     <content><![CDATA[
@@ -18,7 +18,7 @@
     "installable": True,
 }
 ]]></content>
-    <tabTrigger>__openerp__</tabTrigger>
+    <tabTrigger>__Odoo__</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP __openerp__ Base</description>
+    <description>Odoo __Odoo__ Base</description>
 </snippet>
