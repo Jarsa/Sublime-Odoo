@@ -1,21 +1,12 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def ${1:_check_metho}(self, cr, uid, ids):
-    """
-        A user defined constraints listed in {_constraints}
-        @param cr: cursor to database
-        @param uid: id of current user
-        @param ids: list of record ids on which constraints executes
-
-        @return: return True if all constraints satisfied, False otherwise
-    """
+    <content><![CDATA[@api.constrains('${1:field}')
+def ${2:_check_method}(self):
     $0
-    return True
-
-_constraints = [
-    ($1, 'Error: Invalid Message', ['${2:field_name}']),
-]]]></content>
+    if ${3:Test}:
+        raise ValidationError(_('Error: Invalid Message'))
+]]></content>
     <tabTrigger>_constraints</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo _constraints attribute</description>

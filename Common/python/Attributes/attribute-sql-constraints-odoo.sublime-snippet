@@ -3,7 +3,7 @@
 <snippet>
     <content><![CDATA[
 _sql_constraints = [
-    ('${1:name}_uniq', 'unique (${1:name})', 'The ${1:name} must be unique !'),
+    ('${1:name}_uniq', 'unique (${1:name})', _('The ${1:name} must be unique !')),
 ]
 ]]></content>
     <tabTrigger>_sql_constraints</tabTrigger>

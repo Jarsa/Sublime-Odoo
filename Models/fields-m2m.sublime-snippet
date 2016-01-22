@@ -2,13 +2,10 @@
 
 <snippet>
     <content><![CDATA[
-'${1:m2m_field_name}_ids': fields.many2many(
+${1:m2m_field_name}_ids = fields.Many2many(
     '${2:source.model.name}',
-    '${3:model1_model2_table}_rel',
-    '${4:model1_id}',
-    '${5:model2_id}',
-    '${6:Field Label}',
-),$0
+    string='${3:Field Label}',
+)$0
 ]]></content>
     <tabTrigger>fields.many2many</tabTrigger>
     <scope>source.python</scope>

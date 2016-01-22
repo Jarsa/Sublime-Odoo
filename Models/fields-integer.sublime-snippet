@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-'${1:integer_field_name}': fields.integer(
+${1:integer_field_name} = fields.Integer(
     '${2:Field Label}',
 )$0
 ]]></content>

@@ -2,13 +2,10 @@
 
 <snippet>
     <content><![CDATA["""
-    Create a new record in ${1:ModelName} model from existing one
-    @param cr: cursor to database
-    @param user: id of current user
-    @param id / ids: record id on which ${2:MethodName} executes / list of record ids on which ${2:MethodName} executes
-    @param context: context arguments, like lang, time zone
+    ${1:Method Description}
+    @param ${2:param_1}: ${3:Param Description}
 
-    @return: returns a id of newly created record
+    @return: ${4:Description of the return}
 """
 $0]]></content>
     <tabTrigger>doc_method</tabTrigger>

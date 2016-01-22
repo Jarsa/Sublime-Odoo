@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'${1:char_field_name}': fields.char(
-    '${2:Filed Label}',
-),$0
+${1:char_field_name} = fields.Char(
+    string='${2:Filed Label}',
+)$0
 ]]></content>
-    <tabTrigger>fields.char</tabTrigger>
+    <tabTrigger>fields.Char</tabTrigger>
     <scope>source.python</scope>
     <description>char field (OERP)</description>
 </snippet>

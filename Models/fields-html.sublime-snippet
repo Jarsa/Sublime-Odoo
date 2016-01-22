@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-'${1:html_field_name}': fields.html(
-    '${2:Field Label}',
-),$0
+${1:html_field_name} = fields.Html(
+    string='${2:Field Label}',
+)$0
 ]]></content>
     <tabTrigger>fields.html</tabTrigger>
     <scope>source.python</scope>

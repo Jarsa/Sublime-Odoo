@@ -2,8 +2,8 @@
 
 <snippet>
     <content><![CDATA[
-'${1:reference_field_name}': fields.reference(
-    '${2:Field Label}',
+${1:reference_field_name} = fields.Reference(
+    string='${2:Field Label}',
     selection=${3:_get_function_fields},
 )$0
 ]]></content>

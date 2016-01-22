@@ -4,8 +4,14 @@
     <content><![CDATA[class ${1:ClassName}(models.Model):
     _name = '${2:Odoo.model}'
     _description = '${3:Description}'
-    
-    ${4:name} = fields.Char(string='$5', size=${6:64}, required=${7:False}, readonly=${8:False}, defaults={$9:False})$0
+
+    ${4:name} = fields.Char(
+    	string='$5',
+    	size=${6:64},
+    	required=${7:False},
+    	readonly=${8:False},
+    	defaults={$9:False}
+    	)$0
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.python</scope>

@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'${1:bool_field_name}': fields.boolean(
-    '${2:Field Label}',
-),$0
+${1:bool_field_name} = fields.Boolean(
+    string='${2:Field Label}',
+)$0
 ]]></content>
-    <tabTrigger>fields.boolean</tabTrigger>
+    <tabTrigger>fields.Boolean</tabTrigger>
     <scope>source.python</scope>
     <description>boolean field (OERP)</description>
 </snippet>

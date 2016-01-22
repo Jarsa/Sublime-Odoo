@@ -2,10 +2,10 @@
 
 <snippet>
     <content><![CDATA[
-'${1:m2o_field_name}_id': fields.many2one(
+${1:m2o_field_name}_id = fields.Many2one(
     '${2:source.model.name}',
-    '${3:Field Label}',
-),$0
+    string='${3:Field Label}',
+)$0
 ]]></content>
     <tabTrigger>fields.many2one</tabTrigger>
     <scope>source.python</scope>

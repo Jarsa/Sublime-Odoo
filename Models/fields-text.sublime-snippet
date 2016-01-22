@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-'${1:text_field_name}': fields.text(
-    '${2:Field Label}',
-),$0
+${1:text_field_name} = fields.Text(
+    string='${2:Field Label}',
+)$0
 ]]></content>
     <tabTrigger>fields.text</tabTrigger>
     <scope>source.python</scope>

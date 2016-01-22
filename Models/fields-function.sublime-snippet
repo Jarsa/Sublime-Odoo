@@ -2,15 +2,13 @@
 
 <snippet>
     <content><![CDATA[
-'${1:function_field_name}': fields.function(
-    '${2:_function_name}',
-    fnct_inv='${3:_function_name'},
-    type:'${4:field.type'},
-    '${5:_search_function_name'},
-    '${6:Field Label}',
-),$0
+${1:function_field_name}: fields.${2:Field_type}(
+    compute='${3:_function_name}',
+    inverse='${4:_function_name},
+    string='${5:Field Label}',
+)$0
 ]]></content>
-    <tabTrigger>fields.function</tabTrigger>
+    <tabTrigger>function</tabTrigger>
     <scope>source.python</scope>
     <description>function field (OERP)</description>
 </snippet>

@@ -1,19 +1,17 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def copy(self, cr, uid, id, default=None, context=None):
+    <content><![CDATA[@api.multi
+def copy(self, default=None):
     """
         Create a new record in ${1:ModelName} model from existing one
-        @param cr: cursor to database
-        @param user: id of current user
-        @param id: record id on which copy method executes
         @param default: dict type contains the values to be override during copy of object
-        @param context: context arguments, like lang, time zone
 
         @return: returns a id of newly created record
     """
 
-    return super(${1:ModelName}, self).copy(cr, uid, id, default, context)]]></content>
+    return super(${1:ModelName}, self).copy(default)
+    ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method copy Odoo</description>

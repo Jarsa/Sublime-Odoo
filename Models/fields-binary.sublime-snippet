@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-'${1:file_field_name}': fields.binary(
-    '${2:Field Label}',
-),$0
+${1:file_field_name} = fields.Binary(
+    string='${2:Field Label}',
+)$0
 ]]></content>
-    <tabTrigger>fields.binary</tabTrigger>
+    <tabTrigger>fields.Binary</tabTrigger>
     <scope>source.python</scope>
     <description>binary field (OERP)</description>
 </snippet>
