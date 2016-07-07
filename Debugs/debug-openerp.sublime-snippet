@@ -3,8 +3,8 @@
 <snippet>
     <content><![CDATA[
 ## ---> Set BreakPoint
-import pdb;
-pdb.set_trace()
+import ipdb;
+ipdb.set_trace()
 ]]></content>
     <tabTrigger>pdb</tabTrigger>
     <scope>source.python</scope>
