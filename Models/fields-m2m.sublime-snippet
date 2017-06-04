@@ -2,12 +2,12 @@
 
 <snippet>
     <content><![CDATA[
-${1:m2m_field_name}_ids = fields.Many2many(
+${1:field_name}_ids = fields.Many2many(
     '${2:source.model.name}',
     string='${3:Field Label}',
 )$0
 ]]></content>
-    <tabTrigger>fields.many2many</tabTrigger>
+    <tabTrigger>fields.Many2many</tabTrigger>
     <scope>source.python</scope>
-    <description>m2m field (OERP)</description>
+    <description>m2m field (Odoo)</description>
 </snippet>

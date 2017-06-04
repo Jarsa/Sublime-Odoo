@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-_order = "${1:field1_name} desc,${2:field2_name} asc"
+_order = '${1:field1_name} desc,${2:field2_name} asc'
 ]]></content>
     <tabTrigger>_order</tabTrigger>
     <scope>source.python</scope>

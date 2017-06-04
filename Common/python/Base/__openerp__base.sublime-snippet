@@ -3,33 +3,33 @@
 <snippet>
     <content><![CDATA[
 # -*- coding: utf-8 -*-
-# © <${1:YEAR(S)}> <${2:AUTHOR(S)}>
+# Copyright ${1:YEAR(S)}, ${2:AUTHOR(S)}
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
-    "name": "${3:Module name}",
-    "summary": "${4:Module summary}",
-    "version": "${5:9.0.1.0.0}",
-    "category": "${6:Uncategorized}",
-    "website": "${7:https://odoo-community.org/}",
-    "author": "<${2:AUTHOR(S)}>, Odoo Community Association (OCA)",
-    "license": "AGPL-3",
-    "application": False,
-    "installable": True,
-    "external_dependencies": {
-        "python": [],
-        "bin": [],
+    'name': '${3:Module name}',
+    'summary': '${4:Module summary}',
+    'version': '${5:10.0.1.0.0}',
+    'category': '${6:Uncategorized}',
+    'website': '${7:https://odoo-community.org/}',
+    'author': '<${2:AUTHOR(S)}>, Odoo Community Association (OCA)',
+    'license': 'AGPL-3',
+    'application': False,
+    'installable': True,
+    'external_dependencies': {
+        'python': [],
+        'bin': [],
     },
-    "depends": [
-        "${8:base}",
+    'depends': [
+        '${8:base}',
     ],
-    "data": [
-        "${9:view/some_model_view.xml}",
+    'data': [
+        '${9:view/some_model_view.xml}',
     ],
-    "demo": [
-        "${10:demo/res_partner_demo.xml}",
+    'demo': [
+        '${10:demo/res_partner_demo.xml}',
     ],
-    "qweb": [
-        "${11:static/src/xml/module_name.xml}",
+    'qweb': [
+        '${11:static/src/xml/module_name.xml}',
     ]
 }
 ]]></content>

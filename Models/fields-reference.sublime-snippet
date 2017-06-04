@@ -7,7 +7,7 @@ ${1:reference_field_name} = fields.Reference(
     selection=${3:_get_function_fields},
 )$0
 ]]></content>
-    <tabTrigger>fields.reference</tabTrigger>
+    <tabTrigger>fields.Reference</tabTrigger>
     <scope>source.python</scope>
-    <description>reference field (OERP)</description>
+    <description>reference field (Odoo)</description>
 </snippet>

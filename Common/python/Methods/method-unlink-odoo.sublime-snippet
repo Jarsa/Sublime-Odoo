@@ -1,22 +1,18 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def unlink(self, cr, uid, ids, context=None):
+    <content><![CDATA[@api.multi
+    def unlink(self):
     """
         Delete all record(s) from table heaving record id in ids
         return True on success, False otherwise
 
-        @param cr: cursor to database
-        @param uid: id of current user
-        @param ids: list of record ids to be removed from table
-        @param context: context arguments, like lang, time zone
-
         @return: True on success, False otherwise
-
-        #TODO: process before delete resource
     """
+    for rec in self:
+        $0
 
-    return super(${1:ModelName}, self).unlink(cr, uid, ids, context=context)]]></content>
+    return super(${1:ModelName}, self).unlink()]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method unlink Odoo</description>

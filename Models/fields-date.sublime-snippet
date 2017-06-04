@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-${1:data_field_name} = fields.Date(
+${1:field_name} = fields.Date(
     string='${2:Field Label}'
 )$0
 ]]></content>
     <tabTrigger>fields.Date</tabTrigger>
     <scope>source.python</scope>
-    <description>data field (OERP)</description>
+    <description>data field (Odoo)</description>
 </snippet>

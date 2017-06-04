@@ -3,11 +3,12 @@
 <snippet>
     <content><![CDATA[
 # -*- coding: utf-8 -*-
-# © <${1:YEAR(S)}> <${2:AUTHOR(S)}>
+# Copyright ${1:YEAR(S)}, ${2:AUTHOR(S)}
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+
 from . import $0
 ]]></content>
-    <tabTrigger>import</tabTrigger>
+    <tabTrigger>init</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo __init__ Base</description>
 </snippet>

@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-${1:float_field_name} = fields.Float(
-    '${2:Field Label}',
+${1:field_name} = fields.Float(
+    string='${2:Field Label}',
 )$0
 ]]></content>
-    <tabTrigger>fields.float</tabTrigger>
+    <tabTrigger>fields.Float</tabTrigger>
     <scope>source.python</scope>
-    <description>float field (OERP)</description>
+    <description>float field (Odoo)</description>
 </snippet>

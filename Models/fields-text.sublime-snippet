@@ -2,11 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-${1:text_field_name} = fields.Text(
+${1:field_name} = fields.Text(
     string='${2:Field Label}',
 )$0
 ]]></content>
-    <tabTrigger>fields.text</tabTrigger>
+    <tabTrigger>fields.Text</tabTrigger>
     <scope>source.python</scope>
-    <description>text field (OERP)</description>
+    <description>text field (Odoo)</description>
 </snippet>

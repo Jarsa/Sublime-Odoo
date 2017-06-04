@@ -2,11 +2,12 @@
 
 <snippet>
     <content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<openerp>
+<odoo>
     <data>
         $0
     </data>
-</openerp>]]></content>
+</odoo>
+]]></content>
     <tabTrigger>base</tabTrigger>
     <scope>text.xml</scope>
     <description>Odoo Base XML File</description>

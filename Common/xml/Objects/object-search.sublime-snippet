@@ -1,21 +1,17 @@
 <snippet>
-	<content><![CDATA[
-<!-- SEARCH View  --> 
+    <content><![CDATA[
 <record id="${1:view_module}_search" model="ir.ui.view">
     <field name="name">${2:model}.search</field>
     <field name="model">${2:model}</field>
     <field name="arch" type="xml">
         <search string="${3:String}">
-           <filter string="${4:name}" icon="terp-gtk-media-pause" domain="[('${5:field}','${6:=}','${7:value}')]"/>
-           <separator orientation="vertical"/>
-           <group  expand='0' string='${8:Group by...}'>
-               <filter string='${9:name}' icon="terp-gdu-smart-failing" domain="[]" context="{'group_by' : '${10:field}'}" />
-           </group>
+            <filter string="${4:name}" icon="terp-gtk-media-pause" domain="[("${5:field}","${6:=}","${7:value}")]"/>
+            <filter string="${9:name}" domain="[]" context="{"group_by" : "${10:field}"}" />
         </search>
     </field>
 </record>
 ]]></content>
-	<tabTrigger>search</tabTrigger>
-	<scope>text.xml</scope>
-	<description>Odoo Search</description>
+    <tabTrigger>search</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Search</description>
 </snippet>

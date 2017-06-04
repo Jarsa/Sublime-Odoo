@@ -1,21 +1,19 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def write(self, cr, uid, ids, values, context=None):
+    <content><![CDATA[@api.multi
+    def write(self, vals):
     """
-        Update record(s) comes in {ids}, with new value comes as {values}
+        Update record(s)  with new value comes as {values}
         return True on success, False otherwise
 
-        @param cr: cursor to database
-        @param uid: id of current user
-        @param ids: list of record ids to be update
         @param values: dict of new values to be set
-        @param context: context arguments, like lang, time zone
 
         @return: True on success, False otherwise
     """
-
-    return super(${1:Model_Name}, self).write(cr, uid, ids, values, context=context)]]></content>
+    for rec in self:
+        $0
+    return super(${1:ModelName}, self).write(values)]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method write Odoo</description>
