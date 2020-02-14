@@ -1,9 +1,11 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.onchange('${1:field_name}')
-    def _onchange_${1:field_name}(self):
-        $0]]></content>
+    <content><![CDATA[
+@api.onchange('${1:field_name}')
+def _onchange_${1:field_name}(self):
+    $0
+]]></content>
     <tabTrigger>onchange</tabTrigger>
     <scope>source.python</scope>
     <description>Method on_change Odoo</description>

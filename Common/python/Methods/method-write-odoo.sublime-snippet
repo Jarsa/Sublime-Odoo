@@ -2,18 +2,18 @@
 
 <snippet>
     <content><![CDATA[
-    def write(self, vals):
-    """
-        Update record(s)  with new value comes as {values}
-        return True on success, False otherwise
-
-        @param values: dict of new values to be set
-
-        @return: True on success, False otherwise
+def write(self, vals):
+    """ Update record(s)  with new value comes as {values}
+    return True on success, False otherwise
+    :param values: dict of new values to be set
+    :type: dictionary
+    :return: True on success, False otherwise
+    :rtype: Boolean
     """
     for rec in self:
         $0
-    return super(${1:ModelName}, self).write(values)]]></content>
+    return super(${1:ModelName}, self).write(values)
+]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method write Odoo</description>

@@ -1,11 +1,15 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA["""
-    ${1:Method Description}
-    @param ${2:param_1}: ${3:Param Description}
+    <content><![CDATA[
+""" ${1:Method Description}
 
-    @return: ${4:Description of the return}
+:param ${2:parameter_name}: ${3:Parameter Description}
+:type: ${4:Type of Parameter (string,boolean,etc...)}
+:param ${2:parameter_2}: ${3:Parameter 2 Description}
+:type: ${4:Type of Parameter 2 (string,boolean,etc...)}
+:return: ${5:Description of the return}
+:rtype: ${6:Type of the return (string,boolean,etc...)}
 """
 $0]]></content>
     <tabTrigger>doc_method</tabTrigger>

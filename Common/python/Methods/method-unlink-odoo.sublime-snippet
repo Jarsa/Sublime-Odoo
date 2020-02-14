@@ -2,17 +2,18 @@
 
 <snippet>
     <content><![CDATA[
-    def unlink(self):
-    """
-        Delete all record(s) from table heaving record id in ids
-        return True on success, False otherwise
+def unlink(self):
+    """ Delete all record(s) from table heaving record id in ids
+    return True on success, False otherwise
 
-        @return: True on success, False otherwise
+    :return: True on success, False otherwise
+    :rtype: Boolean
     """
     for rec in self:
         $0
 
-    return super(${1:ModelName}, self).unlink()]]></content>
+    return super(${1:ModelName}, self).unlink()
+]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method unlink Odoo</description>

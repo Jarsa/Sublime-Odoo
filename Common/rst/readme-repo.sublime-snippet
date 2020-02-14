@@ -14,13 +14,13 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[module1](module1/) | 9.0.1.0.0 | Module 1 summary
+[module1](module1/) | 13.0.1.0.0 | Module 1 summary
 
 Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[module2](module2/) | 9.0.1.0.0 (unported) | Module 2 summary
+[module2](module2/) | 13.0.1.0.0 (unported) | Module 2 summary
 
 [//]: # (end addons)
 

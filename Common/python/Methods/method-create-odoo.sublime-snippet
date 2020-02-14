@@ -1,15 +1,16 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.model
-    def create(self, values):
+    <content><![CDATA[
+@api.model
+def create(self, values):
+    """ Create a new record for a model ${1:ModelName}
+    :param values: provides a data for new record
+    :type: dictionary
+    :return: returns recordset of new records
+    :rtype: object
     """
-        Create a new record for a model ${1:ModelName}
-        @param values: provides a data for new record
-
-        @return: returns a id of new record
-    """
-
+    $0
     return super(${1:Model_Name}, self).create(values)
 ]]></content>
     <tabTrigger>def</tabTrigger>

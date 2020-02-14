@@ -1,7 +1,8 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.constrains('${1:field}')
+    <content><![CDATA[
+@api.constrains('${1:field}')
 def ${2:_check_method}(self):
     $0
     if ${3:Test}:

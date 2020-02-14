@@ -1,16 +1,17 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def copy(self, default=None):
+    <content><![CDATA[
+def copy(self, default=None):
+    """ Create a new record in ${1:ModelName} model from existing one
+    :param default: dict type contains the values to be override during copy of object
+    :type: dictionary or None
+    :return: returns a recordset of newly created records
     """
-        Create a new record in ${1:ModelName} model from existing one
-        @param default: dict type contains the values to be override during copy of object
-
-        @return: returns a id of newly created record
-    """
-
+    for rec in self:
+        $0
     return super(${1:ModelName}, self).copy(default)
-    ]]></content>
+]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Method copy Odoo</description>

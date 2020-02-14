@@ -2,9 +2,8 @@
 
 <snippet>
     <content><![CDATA[
-# -*- coding: utf-8 -*-
 # Copyright ${1:YEAR(S)}, ${2:AUTHOR(S)}
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 {
     'name': '${3:Module name}',
     'summary': '${4:Module summary}',
@@ -12,7 +11,7 @@
     'category': '${6:Uncategorized}',
     'website': '${7:https://odoo-community.org/}',
     'author': '<${2:AUTHOR(S)}>, Odoo Community Association (OCA)',
-    'license': 'AGPL-3',
+    'license': 'LGPL-3',
     'application': False,
     'installable': True,
     'external_dependencies': {
