@@ -5,8 +5,8 @@
     <field name="model">${2:model}</field>
     <field name="arch" type="xml">
         <search string="${3:String}">
-            <filter name="${4:name}" string="${5:string}" domain="[("${6:field}","${7:=}","${8:value}")]"/>
-            <filter name="${9:name}" string="${9:string}" domain="[]" context="{"group_by" : "${10:field}"}"/>
+            <filter name="${4:name}" string="${5:string}" domain="[('${6:field}','${7:=}','${8:value}')]"/>
+            <filter name="${9:name}" string="${9:string}" domain="[]" context="{'group_by' : '${10:field}'}"/>
         </search>
     </field>
 </record>
