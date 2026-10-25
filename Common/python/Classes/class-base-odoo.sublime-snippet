@@ -7,11 +7,11 @@ class ${1:ClassName}(models.Model):
     _description = '${3:Description}'
 
     ${4:name} = fields.Char(
-    	string='$5',
-    	size=${6:64},
-    	required=${7:False},
-    	readonly=${8:False},
-    	default={$9:False}
+    string='${5:Field Label}',
+    size=${6:64},
+    required=${7:False},
+    readonly=${8:False},
+    default=${9:False}
     )$0
 ]]></content>
     <tabTrigger>class</tabTrigger>
