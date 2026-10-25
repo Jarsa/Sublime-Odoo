@@ -3,7 +3,7 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Char(
-    string='${2:Filed Label}',
+    string='${2:Field Label}',
 )$0
 ]]></content>
     <tabTrigger>fields.Char</tabTrigger>
